@@ -48,7 +48,7 @@ namespace OverlayLoader {
                 float messageLine = 5f;
                 bool firstLine = true;
                 foreach (var msg in messages) {
-                    FLog.Info($"content: '{msg.Content}'; pixelSize: {msg.EmSize}");
+                    //FLog.Info($"content: '{msg.Content}'; pixelSize: {msg.EmSize}");
                     if (!firstLine)
                         messageLine -= msg.EmSize;
                     firstLine = false;
